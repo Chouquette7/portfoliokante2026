@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box; /* Empêche le padding de créer un scroll horizontal */
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+nav {
+
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Pour garder les éléments du menu alignés verticalement */
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 15px;
+}
+nav .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Pour garder les éléments du menu alignés verticalement */
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 10px 0;
+    /*Pour que le menu reste en haut de la page même en scrollant*/
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Assure que le menu reste au-dessus du contenu */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ajoute une légère ombre pour le faire ressortir */
+}
+.nav-logo {
+    color: #d97b16; /* Même orange que tes liens */
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #d97b16;
+    font-weight: 500;
+    padding: 10px 20px; 
+    display:inline-block;
+    position: relative; 
+    transition-duration:color 0.3s ease;
+}
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #f8d5bf;
+    bottom: -5px;
+    transition: width 0.3s ease;
+}
+nav ul li a:hover {
+    color: #f8d5bf;
+    transition-duration: 0.3s;
+    transform: scale(1.1);
+}
+nav ul li a:hover::after {
+    width: 100%;      /* Le trait s'étend sur toute la largeur du lien */
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("beautiful-office-space-cartoon-style.jpg");
+    background-size: cover;
+    background-position: center;
+
+    filter: blur(3px);
+    z-index: -1;
+}
+
+.introduction {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    width: 100%;
+    margin: 50px 0;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.65);
+    box-shadow: 0 10px 30px rgba(138, 49, 1, 0.15);
+    text-align: center;
+}
+.introduction h1, .introduction p, .introduction h5 {
+    max-width: 900px; /* Le texte ne s'étale pas trop */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo {
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.65);
+    border: 2px solid white;
+    padding:20px;
+    text-align: center;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    transition:transform 0.3s ease;
+}
+.photo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(255, 187, 151, 0.3);
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: none;
+}
+h1 {
+    color: #d97b16;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: #d97b16;
+}
+
+footer {
+        background-color: #975606;
+        color: white;
+        padding: 30px 0;
+        text-align: center;
+        margin-top: 50px;
+}
+
+footer nav ul {
+    justify-content:center;
+    margin-bottom: 10px;
+}
+
+.presentation {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    margin: 50px 0;
+    padding: 40px 20px;
+    background-color: rgba(0, 0, 0, 0.65);
+    text-align: center;
+}
+
+
+.presentation p{
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #f2f2f2;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    transition: 0.3s;
+    background-color: white;
+    border-radius: 25% ;
+}
+.logo:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+/* --- Centrage du bouton --- */
+.bouton-container {
+    display: flex;            
+    justify-content: center;   /* Centre horizontalement */
+    align-items: center;       /* Centre verticalement*/
+    height: 20vh;           
+    margin: 20px 0;
+}
+
+/* Le reste du code reste identique */
+.bouton {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: rgba(0,0,0,0.2); 
+    color: #d97b16;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease; 
+    border: 2px solid #d97b16;
+}
+.logo-item img {
+    width: auto;
+    height: 60px; /* Ajuste la hauteur à ta convenance */
+    margin-top: 15px;
+}
+.bouton:hover {
+    background-color: transparent;
+    color: #ffffff;
+    transform: scale(1.1); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* --- Style de la pseudo-page --- */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Fond sombre transparent */
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Affiche la modale quand l'ancre #open-cv est active */
+.modal:target {
+    display: flex;
+}
+.modal-content {
+    background: rgb(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+    border-top: 10px solid #d97b16; /* Rappel de solaire */
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.cv-placeholder {
+    margin-top: 0;
+    border: 1px dashed #ccc;
+    padding: 20px;
+}
+
+/* --- Style général de la section --- */
+.qualites-section {
+    text-align: center;
+    color: white; 
+    font-family: Arial, sans-serif;
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.65); 
+}
+
+.qualites-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+/* Le petit trait horizontal sous le titre */
+.divider {
+    width: 60px;
+    height: 3px;
+    background-color: #d97b16; /* Ton Orange */
+    margin: 0 auto 50px;
+}
+
+/* --- Container Flexbox pour l'alignement --- */
+.qualites-container {
+    display: flex; 
+    justify-content: center; /* Centre les éléments horizontalement */
+    flex-wrap: wrap; /* Permet le passage à la ligne sur petit écran */
+    gap: 30px; /* Espace entre les éléments */
+    padding: 0 20px;
+}
+
+/* --- Style de chaque qualité (Icône + Texte) --- */
+.qualite-item {
+    display: flex;
+    flex-direction: column-reverse; /* Texte AU-DESSUS de l'icône */
+    align-items: center;
+    width: 150px; /* Largeur pour donner de l'espace à chaque item */
+    transition: all 0.3s ease;
+}
+
+/* Effet au survol (cohérent avec ton bouton) */
+.qualite-item:hover {
+    transform: translateY(-5px); /* Petit saut vers le haut */
+}
+
+/* Style de l'icône */
+.qualite-item .icon {
+    font-size: 3.5rem; /* Taille de l'icône temporaire */
+    margin-top: 15px; /* Espace entre le texte et l'icône */
+}
+
+/* Si tu utilises des images pour tes icônes, applique ce style : */
+.qualite-item img {
+    width: auto;
+    height: 60px; /* Ajuste la hauteur à ta convenance */
+    margin-top: 15px;
+}
+
+/* Style du texte */
+.qualite-item p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.competences-section h2 {
+    text-align: center;      /* Centre le texte horizontalement */
+    color: #d97b16;         
+    font-family: Arial, sans-serif;
+    font-size: 2.5rem;       /* Même taille que "MES QUALITÉS" pour la cohérence */
+    text-transform: uppercase; /* Force le texte en majuscules pour le look "pro" */
+    margin-bottom: 5px;      /* Espace réduit pour coller au divider */
+}
+
+/* On s'assure que le trait (divider) est aussi centré juste en dessous */
+.competences-section .divider {
+    width: 60px;
+    height: 3px;
+    background-color: #d97b16; 
+    margin: 0 auto 50px;     /* "auto" sur les côtés centre le trait */
+}
+/* Container de la section */
+.competences-section {
+    padding: 80px 0;
+    background-color: rgba(0, 0, 0, 0.65); /* Fond sombre mais transparent pour faire ressortir le texte et les logos */
+    overflow: hidden;
+}
+
+/* Bande blanche qui contient les logos */
+.logos {
+    overflow: hidden;
+    padding: 30px 0;
+    background: rgba(255, 255, 255, 0.65);
+    white-space: nowrap;
+    display: flex;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Animation de défilement */
+.logos-slide {
+    display: flex;
+    animation: 20s slide infinite linear; /* 20 secondes pour laisser le temps de lire mais pour faire le tour assez vite */
+}
+
+/* Style de chaque connaissance */
+.logo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 50px;
+    cursor: default;
+}
+
+/* Texte des connaissances */
+.logo-item span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #333;
+    transition: all 0.3s ease;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+/* Interaction au survol */
+.logos:hover .logos-slide {
+    animation-play-state: paused; /* Arrête le défilement */
+}
+
+.logo-item:hover span {
+    color: #fff;
+    transform: scale(1.2);
+}
+
+/* L'animation infinie */
+@keyframes slide {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+}
+
+/* Container pour mettre les cartes côte à côte */
+.options-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+    flex-wrap: wrap; /* Pour que les carrés passent l'un sous l'autre sur mobile */
+}
+
+/* Style commun des carrés (cartes) */
+.card {
+    background-color: rgba(0, 0, 0, 0.65);
+    border: 2px solid white;
+    padding: 30px;
+    width: 400px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    border-color: #d97b16; /* Rappel de ton orange au survol */
+}
+
+.card h3 {
+    color: #d97b16;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.card ul li {
+    margin: 10px 0;
+}
+
+.card ul li::before {
+    content: "•";
+    color: #d97b16;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+}
+
+/* Style spécifique pour ton choix (SISR) */
+.choice-card {
+    border-color: #2ecc71; /* Bordure verte subtile ou reste en blanc selon ton goût */
+}
+
+.check-mark {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background-color: #2ecc71; /* Vert "Check" */
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}

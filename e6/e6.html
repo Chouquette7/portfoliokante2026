@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Épreuve E6 - KANTE Cheick</title>
+</head>
+<body>
+    <div class="background"></div>
+
+    <header>
+        <nav class="menu">
+            <div class="nav-logo">KANTE Cheick Omar</div>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../propos/propos.html">A propos de moi</a></li>
+                <li><a href="../etudes/etudes.html">Etudes</a></li>
+                <li><a href="../e5/e5.html">Epreuve E5</a></li>
+                <li><a href="e6.html">Epreuve E6</a></li>
+                <li><a href="../veille/veille.html">Veille technologique</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="introduction">
+            <h1>Épreuve E6 - Cybersécurité des services informatiques</h1>
+            <p>Cette page présente les travaux qui montrent ma capacité à sécuriser des services, contrôler les accès, appliquer les bonnes pratiques et participer au traitement d’incidents.</p>
+        </div>
+
+        <section class="presentation">
+            <h5>Objectif de l’épreuve</h5>
+            <p>L’épreuve E6 complète l’administration système et réseau avec une approche sécurité : comptes utilisateurs, droits d’accès, annuaire LDAP, traçabilité, continuité de service, séparation des réseaux et diagnostic des incidents.</p>
+        </section>
+
+        <section class="options-container">
+            <div class="card choice-card">
+                <div class="check-mark">✔</div>
+                <h3>Contrôler</h3>
+                <p>Gérer les comptes, groupes, habilitations et sources d’authentification comme Active Directory ou LDAP.</p>
+            </div>
+            <div class="card">
+                <h3>Protéger</h3>
+                <p>Sécuriser les accès aux services, limiter les risques et vérifier les configurations sensibles.</p>
+            </div>
+            <div class="card">
+                <h3>Tracer</h3>
+                <p>Suivre les tickets, conserver des preuves et documenter les actions techniques réalisées.</p>
+            </div>
+        </section>
+
+        <h2 class="section-title">Travaux liés à la cybersécurité</h2>
+        <div class="divider"></div>
+
+        <section class="project-list">
+            <article class="project-card">
+                <div class="project-header">
+                    <span class="project-tag">GLPI / LDAP</span>
+                    <h3>Sécurisation des accès et support utilisateur avec GLPI</h3>
+                </div>
+                <p>Le projet OCS-GLPI intègre une liaison LDAP, l’import d’utilisateurs, la gestion de tickets et le suivi des interventions. Il permet de travailler la traçabilité des incidents et la séparation des rôles entre utilisateur, administrateur et technicien.</p>
+                <ul class="project-skills">
+                    <li>Authentification via annuaire LDAP</li>
+                    <li>Gestion des profils et utilisateurs</li>
+                    <li>Suivi d’un incident jusqu’à sa clôture</li>
+                    <li>Documentation des preuves et des actions</li>
+                </ul>
+                <div class="project-links">
+                    <a href="../docs/TP_OCS_GLPI_KANTE_Cheick.pdf" class="bouton" target="_blank">Voir le PDF</a>
+                    <a href="../docs/TP_OCS_GLPI_KANTE_Cheick.docx" class="bouton">Télécharger le DOCX</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-header">
+                    <span class="project-tag">Active Directory</span>
+                    <h3>Gestion des comptes et automatisation PowerShell</h3>
+                </div>
+                <p>Le TP PowerShell met en avant la gestion des utilisateurs Active Directory, la création de comptes, l’appartenance à des groupes, la désactivation d’un compte et la génération de rapports CSV pour faciliter le contrôle administratif.</p>
+                <ul class="project-skills">
+                    <li>Créer et vérifier des comptes utilisateurs</li>
+                    <li>Gérer des groupes AD</li>
+                    <li>Désactiver un compte utilisateur</li>
+                    <li>Exporter des rapports de contrôle</li>
+                </ul>
+                <div class="project-links">
+                    <a href="../docs/CR_TP_PowerShell_KANTE_Cheick.pptx" class="bouton">Voir le support</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-header">
+                    <span class="project-tag">Réseau invité</span>
+                    <h3>Segmentation et diagnostic réseau avec Cisco</h3>
+                </div>
+                <p>Le TP Cisco contient une partie réseau invité et serveur DHCP autonome. La séparation des sous-réseaux, les routes statiques et les tests de connectivité participent à la compréhension des flux et au diagnostic d’un service réseau.</p>
+                <ul class="project-skills">
+                    <li>Identifier les chemins réseau</li>
+                    <li>Contrôler la connectivité entre segments</li>
+                    <li>Analyser un échec de ping</li>
+                    <li>Utiliser traceroute pour vérifier les sauts</li>
+                </ul>
+                <div class="project-links">
+                    <a href="../docs/TP_Cisco_DHCP_KANTE_Cheick.pdf" class="bouton" target="_blank">Voir le PDF</a>
+                    <a href="../docs/TP_Cisco_DHCP_KANTE_Cheick.docx" class="bouton">Télécharger le DOCX</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-header">
+                    <span class="project-tag">Infrastructure</span>
+                    <h3>Infrastructure virtualisée et règles de communication</h3>
+                </div>
+                <p>Le projet RTR-INFRA permet de travailler la séparation des interfaces, le routage, le NAT et la mise en relation de machines virtuelles. Ces éléments sont essentiels pour comprendre la surface d’exposition d’une infrastructure.</p>
+                <ul class="project-skills">
+                    <li>Administrer des interfaces Linux</li>
+                    <li>Comprendre les flux entre réseaux</li>
+                    <li>Configurer une passerelle</li>
+                    <li>Documenter une architecture</li>
+                </ul>
+                <div class="project-links">
+                    <a href="../docs/Livrable_RTR_INFRA_KANTE_Cheick.pdf" class="bouton" target="_blank">Voir le livrable</a>
+                </div>
+            </article>
+        </section>
+
+        <section class="presentation">
+            <h5>Preuves disponibles</h5>
+            <p>Les documents ci-dessous rassemblent les comptes rendus, captures et supports qui servent de preuves techniques pour les compétences de cybersécurité.</p>
+            <div class="bouton-container small-container">
+                <a href="../docs/TP_OCS_GLPI_KANTE_Cheick.pdf" class="bouton" target="_blank">OCS-GLPI</a>
+                <a href="../docs/CR_TP_PowerShell_KANTE_Cheick.pptx" class="bouton">PowerShell / AD</a>
+                <a href="../docs/TP_Cisco_DHCP_KANTE_Cheick.pdf" class="bouton" target="_blank">Cisco DHCP</a>
+                <a href="../docs/Tableau_de_competence_E4_KANTE_Cheick_rempli.xlsx" class="bouton">Tableau de synthèse</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+             <ul>
+                <li><a href="https://www.instagram.com/ch3ick952/" target="_blank"><img src="../img/logo_insta.png" alt="Logo Instagram" class="logo"></a></li>
+                <li><a href="https://www.linkedin.com/in/cheick-kante-21919a336" target="_blank"><img src="../img/logo_ln.png" alt="Logo LinkedIn" class="logo"></a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2026 KANTE Cheick Omar. Tous droits réservés</p>
+    </footer>
+</body>
+</html>
