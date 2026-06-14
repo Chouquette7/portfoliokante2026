@@ -489,3 +489,143 @@ footer nav ul {
     font-size: 1.2rem;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
+
+/* --- Sections spécifiques aux pages E5 et E6 --- */
+.section-title {
+    text-align: center;
+    color: #d97b16;
+    font-size: 2.2rem;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
+.epreuve-grid {
+    max-width: 1100px;
+    margin: 30px auto 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+}
+
+.epreuve-bloc {
+    background-color: rgba(0, 0, 0, 0.45);
+    border: 1px solid rgba(217, 123, 22, 0.7);
+    padding: 25px;
+    border-radius: 6px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.epreuve-bloc:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(255, 187, 151, 0.2);
+}
+
+.epreuve-bloc h3 {
+    color: #d97b16;
+    margin-top: 0;
+}
+
+.small-container {
+    height: auto;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+    nav,
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li a {
+        padding: 8px 12px;
+    }
+
+    .card,
+    .photo {
+        width: 90%;
+    }
+
+    .section-title {
+        font-size: 1.7rem;
+    }
+}
+
+/* --- Cartes projets portfolio --- */
+.project-list {
+    width: min(1100px, 92%);
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 28px;
+}
+
+.project-card {
+    background-color: rgba(0, 0, 0, 0.68);
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    padding: 28px;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    border-color: #d97b16;
+    box-shadow: 0 12px 28px rgba(255, 187, 151, 0.25);
+}
+
+.project-header h3 {
+    color: #d97b16;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.project-tag {
+    display: inline-block;
+    padding: 6px 12px;
+    border: 1px solid #d97b16;
+    color: #f8d5bf;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+}
+
+.project-card p {
+    color: #f2f2f2;
+}
+
+.project-skills {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.project-skills li {
+    margin: 9px 0;
+    color: #ffffff;
+}
+
+.project-skills li::before {
+    content: "✓";
+    color: #2ecc71;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .project-list {
+        grid-template-columns: 1fr;
+    }
+
+    .project-links {
+        justify-content: center;
+    }
+}
