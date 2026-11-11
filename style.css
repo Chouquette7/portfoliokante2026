@@ -6,7 +6,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    color: #ffffff;
+    color: #FFFFFF;
     line-height: 1.5;
 }
 
@@ -31,7 +31,7 @@ nav .menu {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ajoute une légère ombre pour le faire ressortir */
 }
 .nav-logo {
-    color: #d97b16; /* Même orange que tes liens */
+    color: #7896E8;
     font-weight: 600;
     font-size: 1rem;
     letter-spacing: 1px;
@@ -46,7 +46,7 @@ nav ul {
 }
 nav ul li a {
     text-decoration: none;
-    color: #d97b16;
+    color: #7896E8;
     font-weight: 500;
     padding: 10px 20px; 
     display:inline-block;
@@ -59,12 +59,12 @@ nav ul li a::after {
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #f8d5bf;
+    background-color: #FFFFFF;
     bottom: -5px;
     transition: width 0.3s ease;
 }
 nav ul li a:hover {
-    color: #f8d5bf;
+    color: #FFFFFF;
     transition-duration: 0.3s;
     transform: scale(1.1);
 }
@@ -103,7 +103,7 @@ nav ul {
     margin: 50px 0;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.65);
-    box-shadow: 0 10px 30px rgba(138, 49, 1, 0.15);
+    box-shadow: 0 10px 30px rgba(23, 44, 80, 0.15);
     text-align: center;
 }
 .introduction h1, .introduction p, .introduction h5 {
@@ -131,7 +131,7 @@ nav ul {
 }
 .photo:hover {
     transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(255, 187, 151, 0.3);
+    box-shadow: 0 10px 20px rgba(120, 150, 232, 0.3);
 }
 
 .photo img {
@@ -141,18 +141,18 @@ nav ul {
     border: none;
 }
 h1 {
-    color: #d97b16;
+    color: #7896E8;
     margin-bottom: 20px;
 }
 
 h5 {
     font-weight: 300;
     font-size: 1.1rem;
-    color: #d97b16;
+    color: #7896E8;
 }
 
 footer {
-        background-color: #975606;
+        background-color: #172C50;
         color: white;
         padding: 30px 0;
         text-align: center;
@@ -178,7 +178,7 @@ footer nav ul {
 .presentation p{
     margin-bottom: 20px;
     font-size: 1rem;
-    color: #f2f2f2;
+    color: #F5F5F5;
     max-width: 850px;
     margin-left: auto;
     margin-right: auto;
@@ -210,14 +210,14 @@ footer nav ul {
 .bouton {
     display: inline-block;
     padding: 12px 25px;
-    background-color: rgba(0,0,0,0.2); 
-    color: #d97b16;
+    background-color: #0039CC;
+    color: #FFFFFF;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
     font-family: Arial, sans-serif;
     transition: all 0.3s ease; 
-    border: 2px solid #d97b16;
+    border: 2px solid #7896E8;
 }
 .logo-item img {
     width: auto;
@@ -225,8 +225,8 @@ footer nav ul {
     margin-top: 15px;
 }
 .bouton:hover {
-    background-color: transparent;
-    color: #ffffff;
+    background-color: #172C50;
+    color: #FFFFFF;
     transform: scale(1.1); 
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
@@ -256,7 +256,7 @@ footer nav ul {
     width: 80%;
     max-width: 600px;
     position: relative;
-    border-top: 10px solid #d97b16; /* Rappel de solaire */
+    border-top: 10px solid #7896E8;
 }
 
 .close-btn {
@@ -264,7 +264,7 @@ footer nav ul {
     top: 10px;
     right: 15px;
     text-decoration: none;
-    color: #333;
+    color: #333333;
     font-weight: bold;
 }
 
@@ -292,7 +292,7 @@ footer nav ul {
 .divider {
     width: 60px;
     height: 3px;
-    background-color: #d97b16; /* Ton Orange */
+    background-color: #7896E8;
     margin: 0 auto 50px;
 }
 
@@ -341,7 +341,7 @@ footer nav ul {
 
 .competences-section h2 {
     text-align: center;      /* Centre le texte horizontalement */
-    color: #d97b16;         
+    color: #7896E8;         
     font-family: Arial, sans-serif;
     font-size: 2.5rem;       /* Même taille que "MES QUALITÉS" pour la cohérence */
     text-transform: uppercase; /* Force le texte en majuscules pour le look "pro" */
@@ -352,7 +352,7 @@ footer nav ul {
 .competences-section .divider {
     width: 60px;
     height: 3px;
-    background-color: #d97b16; 
+    background-color: #7896E8; 
     margin: 0 auto 50px;     /* "auto" sur les côtés centre le trait */
 }
 /* Container de la section */
@@ -392,7 +392,7 @@ footer nav ul {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1rem;
     font-weight: 700;
-    color: #333;
+    color: #333333;
     transition: all 0.3s ease;
     padding: 5px 15px;
     border-radius: 20px;
@@ -404,7 +404,7 @@ footer nav ul {
 }
 
 .logo-item:hover span {
-    color: #fff;
+    color: #FFFFFF;
     transform: scale(1.2);
 }
 
@@ -440,11 +440,11 @@ footer nav ul {
 
 .card:hover {
     transform: translateY(-10px);
-    border-color: #d97b16; /* Rappel de ton orange au survol */
+    border-color: #7896E8;
 }
 
 .card h3 {
-    color: #d97b16;
+    color: #7896E8;
     margin-top: 0;
     text-transform: uppercase;
 }
@@ -462,7 +462,7 @@ footer nav ul {
 
 .card ul li::before {
     content: "•";
-    color: #d97b16;
+    color: #7896E8;
     font-weight: bold;
     display: inline-block; 
     width: 1em;
@@ -493,7 +493,7 @@ footer nav ul {
 /* --- Sections spécifiques aux pages E5 et E6 --- */
 .section-title {
     text-align: center;
-    color: #d97b16;
+    color: #7896E8;
     font-size: 2.2rem;
     margin-top: 60px;
     text-transform: uppercase;
@@ -509,7 +509,7 @@ footer nav ul {
 
 .epreuve-bloc {
     background-color: rgba(0, 0, 0, 0.45);
-    border: 1px solid rgba(217, 123, 22, 0.7);
+    border: 1px solid rgba(120, 150, 232, 0.7);
     padding: 25px;
     border-radius: 6px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -517,11 +517,11 @@ footer nav ul {
 
 .epreuve-bloc:hover {
     transform: translateY(-6px);
-    box-shadow: 0 10px 20px rgba(255, 187, 151, 0.2);
+    box-shadow: 0 10px 20px rgba(120, 150, 232, 0.2);
 }
 
 .epreuve-bloc h3 {
-    color: #d97b16;
+    color: #7896E8;
     margin-top: 0;
 }
 
@@ -570,12 +570,12 @@ footer nav ul {
 
 .project-card:hover {
     transform: translateY(-8px);
-    border-color: #d97b16;
-    box-shadow: 0 12px 28px rgba(255, 187, 151, 0.25);
+    border-color: #7896E8;
+    box-shadow: 0 12px 28px rgba(120, 150, 232, 0.25);
 }
 
 .project-header h3 {
-    color: #d97b16;
+    color: #7896E8;
     margin-top: 10px;
     text-transform: uppercase;
 }
@@ -583,8 +583,8 @@ footer nav ul {
 .project-tag {
     display: inline-block;
     padding: 6px 12px;
-    border: 1px solid #d97b16;
-    color: #f8d5bf;
+    border: 1px solid #7896E8;
+    color: #FFFFFF;
     border-radius: 999px;
     font-size: 0.8rem;
     font-weight: bold;
@@ -592,7 +592,7 @@ footer nav ul {
 }
 
 .project-card p {
-    color: #f2f2f2;
+    color: #F5F5F5;
 }
 
 .project-skills {
@@ -603,7 +603,7 @@ footer nav ul {
 
 .project-skills li {
     margin: 9px 0;
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 .project-skills li::before {
