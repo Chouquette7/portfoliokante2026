@@ -25,128 +25,169 @@
 
     <main>
         <div class="introduction">
-            <h1>Épreuve E5 - Support et mise à disposition de services informatiques</h1>
-            <p>Cette page présente les réalisations professionnelles effectuées en entreprise durant ma première année de BTS SIO. Elles concernent principalement le support utilisateur, l’administration Active Directory, la documentation, l’outil de ticketing Ivanti et l’accompagnement de la transition vers Windows 11.</p>
+            <h1>Épreuve E5 - Cybersécurité des services informatiques</h1>
+            <p>Cette page présente les travaux qui montrent ma capacité à sécuriser des services, contrôler les accès, appliquer les bonnes pratiques et participer au traitement d’incidents.</p>
         </div>
 
         <section class="presentation">
             <h5>Objectif de l’épreuve</h5>
-            <p>L’épreuve E5 permet de valoriser les compétences liées au support informatique, à la gestion du patrimoine, au traitement des demandes utilisateurs et à la mise à disposition de services numériques. Les réalisations ci-dessous montrent des situations concrètes rencontrées en environnement professionnel.</p>
-            <div class="bouton-container small-container">
-                <a href="../docs/Tableau_de_competence_E4_KANTE_Cheick_rempli.xlsx" class="bouton">Tableau de synthèse</a>
-            </div>
+            <p>L’épreuve E5 complète l’administration système et réseau avec une approche sécurité : comptes utilisateurs, droits d’accès, annuaire LDAP, traçabilité, continuité de service, séparation des réseaux et diagnostic des incidents.</p>
         </section>
 
         <section class="options-container">
-            <div class="card choice-card">
-                <div class="check-mark">✔</div>
-                <h3>Support utilisateur</h3>
-                <p>Prise en compte des demandes, suivi des incidents et accompagnement des utilisateurs dans leur environnement de travail.</p>
+
+            <div class="card">
+                <h3>Contrôler</h3>
+                <p>Gérer les comptes, groupes, habilitations et sources d’authentification comme Active Directory ou LDAP.</p>
             </div>
             <div class="card">
-                <h3>Gestion du parc</h3>
-                <p>Participation à la préparation des postes, à l’administration des comptes et à la transition vers un environnement Windows 11.</p>
+                <h3>Protéger</h3>
+                <p>Sécuriser les accès aux services, limiter les risques et vérifier les configurations sensibles.</p>
             </div>
             <div class="card">
-                <h3>Documentation</h3>
-                <p>Actualisation de procédures afin de faciliter le travail des équipes support et d’harmoniser les méthodes d’intervention.</p>
-            </div>
+                <h3>Tracer</h3>
+                <p>Suivre les tickets, conserver des preuves et documenter les actions techniques réalisées.</p>
+        </div>
         </section>
 
-        <h2 class="section-title">Réalisations professionnelles</h2>
+        <h2 class="section-title">Travaux liés à la cybersécurité</h2>
         <div class="divider"></div>
 
         <section class="project-list">
             <article class="project-card">
                 <div class="project-header">
-                    <span class="project-tag">Intune / Master</span>
-                    <h3>Assistance à la mise au point du master Intune</h3>
+                    <span class="project-tag">GLPI / LDAP</span>
+                    <h3>Sécurisation des accès et support utilisateur avec GLPI</h3>
                 </div>
-                <p>J’ai participé à la préparation et aux ajustements d’un master destiné au déploiement de postes via Microsoft Intune. Cette réalisation m’a permis de mieux comprendre la préparation d’un environnement utilisateur, les paramètres appliqués aux postes et les vérifications nécessaires avant une mise en production.</p>
+                <p>Le projet OCS-GLPI intègre une liaison LDAP, l’import d’utilisateurs, la gestion de tickets et le suivi des interventions. Il permet de travailler la traçabilité des incidents et la séparation des rôles entre utilisateur, administrateur et technicien.</p>
                 <ul class="project-skills">
-                    <li>Préparer un poste de travail pour les utilisateurs</li>
-                    <li>Participer à la mise à disposition d’un environnement standardisé</li>
-                    <li>Tester et vérifier le bon fonctionnement du master</li>
-                    <li>Identifier les points à corriger avant déploiement</li>
+                    <li>Authentification via annuaire LDAP</li>
+                    <li>Gestion des profils et utilisateurs</li>
+                    <li>Suivi d’un incident jusqu’à sa clôture</li>
+                    <li>Documentation des preuves et des actions</li>
                 </ul>
+                <div class="project-links">
+                    <a href="../docs/TP_OCS_GLPI_KANTE_Cheick.pdf" class="bouton" target="_blank">Voir le PDF</a>
+                    <a href="../docs/TP_OCS_GLPI_KANTE_Cheick.docx" class="bouton">Télécharger le DOCX</a>
+                </div>
             </article>
 
             <article class="project-card">
                 <div class="project-header">
                     <span class="project-tag">Active Directory</span>
-                    <h3>Gestion des utilisateurs dans un AD</h3>
+                    <h3>Gestion des comptes et automatisation PowerShell</h3>
                 </div>
-                <p>J’ai réalisé des opérations de gestion d’utilisateurs dans Active Directory : recherche de comptes, modification d’informations, gestion des accès, intégration dans des groupes et accompagnement sur les demandes liées aux comptes utilisateurs.</p>
+                <p>Le TP PowerShell met en avant la gestion des utilisateurs Active Directory, la création de comptes, l’appartenance à des groupes, la désactivation d’un compte et la génération de rapports CSV pour faciliter le contrôle administratif.</p>
                 <ul class="project-skills">
-                    <li>Administrer des comptes utilisateurs</li>
-                    <li>Gérer les appartenances aux groupes</li>
-                    <li>Participer à la gestion des droits d’accès</li>
-                    <li>Respecter les procédures internes de l’entreprise</li>
+                    <li>Créer et vérifier des comptes utilisateurs</li>
+                    <li>Gérer des groupes AD</li>
+                    <li>Désactiver un compte utilisateur</li>
+                    <li>Exporter des rapports de contrôle</li>
                 </ul>
+                <div class="project-links">
+                    <a href="../docs/CR_TP_PowerShell_KANTE_Cheick.pptx" class="bouton">Voir le support</a>
+                </div>
             </article>
 
             <article class="project-card">
                 <div class="project-header">
-                    <span class="project-tag">Procédures</span>
-                    <h3>Actualisation des procédures</h3>
+                    <span class="project-tag">Réseau invité</span>
+                    <h3>Segmentation et diagnostic réseau avec Cisco</h3>
                 </div>
-                <p>J’ai contribué à la mise à jour de procédures techniques afin de garder une documentation claire, utile et exploitable par les équipes. Ce travail permet de gagner du temps lors des interventions et de limiter les erreurs liées à des consignes obsolètes.</p>
+                <p>Le TP Cisco contient une partie réseau invité et serveur DHCP autonome. La séparation des sous-réseaux, les routes statiques et les tests de connectivité participent à la compréhension des flux et au diagnostic d’un service réseau.</p>
                 <ul class="project-skills">
-                    <li>Mettre à jour une documentation technique</li>
-                    <li>Clarifier les étapes d’une procédure</li>
-                    <li>Améliorer la continuité du support informatique</li>
-                    <li>Capitaliser les connaissances de l’équipe</li>
+                    <li>Identifier les chemins réseau</li>
+                    <li>Contrôler la connectivité entre segments</li>
+                    <li>Analyser un échec de ping</li>
+                    <li>Utiliser traceroute pour vérifier les sauts</li>
                 </ul>
+                <div class="project-links">
+                    <a href="../docs/TP_Cisco_DHCP_KANTE_Cheick.pdf" class="bouton" target="_blank">Voir le PDF</a>
+                    <a href="../docs/TP_Cisco_DHCP_KANTE_Cheick.docx" class="bouton">Télécharger le DOCX</a>
+                </div>
             </article>
 
             <article class="project-card">
                 <div class="project-header">
-                    <span class="project-tag">Ticketing</span>
-                    <h3>Maîtrise de l’outil ticketing Ivanti</h3>
+                    <span class="project-tag">Infrastructure</span>
+                    <h3>Infrastructure virtualisée et règles de communication</h3>
                 </div>
-                <p>J’ai utilisé l’outil Ivanti pour consulter, suivre et traiter des tickets utilisateurs. Cette expérience m’a appris à organiser le suivi des incidents, à prioriser les demandes et à garder une trace claire des actions réalisées.</p>
+                <p>Le projet RTR-INFRA permet de travailler la séparation des interfaces, le routage, le NAT et la mise en relation de machines virtuelles. Ces éléments sont essentiels pour comprendre la surface d’exposition d’une infrastructure.</p>
                 <ul class="project-skills">
-                    <li>Consulter et suivre des tickets utilisateurs</li>
-                    <li>Renseigner les actions effectuées</li>
-                    <li>Prioriser les demandes selon leur urgence</li>
-                    <li>Assurer un suivi clair jusqu’à la résolution</li>
+                    <li>Administrer des interfaces Linux</li>
+                    <li>Comprendre les flux entre réseaux</li>
+                    <li>Configurer une passerelle</li>
+                    <li>Documenter une architecture</li>
                 </ul>
+                <div class="project-links">
+                    <a href="../docs/Livrable_RTR_INFRA_KANTE_Cheick.pdf" class="bouton" target="_blank">Voir le livrable</a>
+                </div>
             </article>
 
             <article class="project-card">
                 <div class="project-header">
-                    <span class="project-tag">Windows 11</span>
-                    <h3>Transition Windows 11</h3>
+                    <span class="project-tag">Infrastructure</span>
+                    <h3>RTR Infra</h3>
                 </div>
-                <p>J’ai participé à l’accompagnement de la transition vers Windows 11. Cette mission m’a permis d’observer les enjeux d’une migration de système d’exploitation : compatibilité, préparation des postes, accompagnement des utilisateurs et vérification après intervention.</p>
-                <ul class="project-skills">
-                    <li>Participer à une migration de postes utilisateurs</li>
-                    <li>Vérifier le bon fonctionnement après passage à Windows 11</li>
-                    <li>Accompagner les utilisateurs face aux changements</li>
-                    <li>Remonter les anomalies rencontrées</li>
-                </ul>
+                <p>Mise en place d’une infrastructure virtualisée avec routage, NAT et communication entre machines virtuelles.</p>
+                <div class="project-links">
+                    <a href="../docs/Livrable_RTR_INFRA_KANTE_Cheick.pdf" class="bouton">Voir le livrable</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-header">
+                    <span class="project-tag">Active Directory</span>
+                    <h3>Mise en place d’un AD</h3>
+                </div>
+                <p>Mise en place d’un annuaire Active Directory pour centraliser la gestion des utilisateurs et des ressources du domaine.</p>
+            </article>
+
+            <article class="project-card">
+                <div class="project-header">
+                    <span class="project-tag">SQL / Python</span>
+                    <h3>Création d’un jeu en SQL et en Python</h3>
+                </div>
+                <p>Création d’un jeu associant Python pour la logique du programme et SQL pour la gestion des données.</p>
+            </article>
+
+            <article class="project-card">
+                <div class="project-header">
+                    <span class="project-tag">Cisco / DHCP</span>
+                    <h3>Configuration d’un serveur DHCP sur Cisco</h3>
+                </div>
+                <p>Configuration d’un serveur DHCP dans un environnement Cisco pour l’attribution automatique des paramètres réseau aux postes clients.</p>
+                <div class="project-links">
+                    <a href="../docs/TP_Cisco_DHCP_KANTE_Cheick.pdf" class="bouton">Voir le PDF</a>
+                    <a href="../docs/TP_Cisco_DHCP_KANTE_Cheick.docx" class="bouton">Télécharger le DOCX</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-header">
+                    <span class="project-tag">Documentation</span>
+                    <h3>Revue des procédures des systèmes d’information</h3>
+                </div>
+                <p>Revue et actualisation des procédures des systèmes d’information pour maintenir une documentation claire et à jour.</p>
+            </article>
+
+            <article class="project-card">
+                <div class="project-header">
+                    <span class="project-tag">Parc informatique</span>
+                    <h3>Mise à jour des PC du parc informatique</h3>
+                </div>
+                <p>Mise à jour des postes du parc informatique dans le cadre de leur maintenance.</p>
             </article>
         </section>
 
         <section class="presentation">
-            <h5>Synthèse des compétences mobilisées</h5>
-            <div class="epreuve-grid">
-                <div class="epreuve-bloc">
-                    <h3>Gérer le patrimoine informatique</h3>
-                    <p>Participation à la préparation des postes, suivi des comptes utilisateurs et accompagnement de la transition Windows 11.</p>
-                </div>
-                <div class="epreuve-bloc">
-                    <h3>Répondre aux incidents et demandes</h3>
-                    <p>Utilisation d’Ivanti pour suivre les tickets, renseigner les actions et contribuer à la résolution des demandes utilisateurs.</p>
-                </div>
-                <div class="epreuve-bloc">
-                    <h3>Travailler en mode collaboratif</h3>
-                    <p>Application des procédures internes, communication avec les équipes support et remontée des informations utiles.</p>
-                </div>
-                <div class="epreuve-bloc">
-                    <h3>Mettre à disposition un service</h3>
-                    <p>Contribution à la préparation du master Intune et à la mise en place d’un environnement de travail fiable pour les utilisateurs.</p>
-                </div>
+            <h5>Preuves disponibles</h5>
+            <p>Les documents ci-dessous rassemblent les comptes rendus, captures et supports qui servent de preuves techniques pour les compétences de cybersécurité.</p>
+            <div class="bouton-container small-container">
+                <a href="../docs/TP_OCS_GLPI_KANTE_Cheick.pdf" class="bouton" target="_blank">OCS-GLPI</a>
+                <a href="../docs/CR_TP_PowerShell_KANTE_Cheick.pptx" class="bouton">PowerShell / AD</a>
+                <a href="../docs/TP_Cisco_DHCP_KANTE_Cheick.pdf" class="bouton" target="_blank">Cisco DHCP</a>
+                <a href="../docs/Tableau_de_competence_E4_KANTE_Cheick_rempli.xlsx" class="bouton">Tableau de synthèse</a>
             </div>
         </section>
     </main>
