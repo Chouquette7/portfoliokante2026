@@ -1,0 +1,803 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+/Title (Mode op\351ratoire \174 Projet Pok\351mon \174 BTS SIO)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 6
+/Kids [ 4 0 R 9 0 R 12 0 R 15 0 R 18 0 R 24 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+/Outlines 26 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 3446
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.090196 .172549 .313725 rg
+n 0 675.8898 595.2756 166 re f*
+.470588 .588235 .909804 rg
+n 48 798.8898 34 4 re f*
+1 1 1 rg
+BT /F2 10.5 Tf 12.6 TL ET
+BT 1 0 0 1 48 776.8898 Tm (MODE OP\311RATOIRE  /  PROJET POK\311MON) Tj T* ET
+1 1 1 rg
+BT /F2 29 Tf 34.8 TL ET
+BT 1 0 0 1 48 732.8898 Tm (Pr\351parer les sprites) Tj T* ET
+1 1 1 rg
+BT /F1 11.5 Tf 13.8 TL ET
+BT 1 0 0 1 48 704.8898 Tm (Rassembler les ressources graphiques avant de d\351velopper le combat.) Tj T* ET
+.090196 .172549 .313725 rg
+BT /F2 14 Tf 16.8 TL ET
+BT 1 0 0 1 48 633.8898 Tm (1. T\351l\351charger les sprites) Tj T* ET
+q
+1 0 0 1 48 557.8898 cm
+q
+.14902 .211765 .294118 rg
+BT 1 0 0 1 0 53 Tm /F1 11 Tf 16 TL (Nous avons commenc\351 par t\351l\351charger les sprites des Pok\351mon des g\351n\351rations 1 \340 4. Un sprite est) Tj T* (la petite image qui repr\351sente un Pok\351mon \340 l\222\351cran. Nous avions besoin de visuels de face pour la) Tj T* (s\351lection et l\222adversaire, ainsi que de visuels de dos pour repr\351senter le Pok\351mon du joueur en) Tj T* (combat.) Tj T* ET
+Q
+Q
+.090196 .172549 .313725 rg
+BT /F2 14 Tf 16.8 TL ET
+BT 1 0 0 1 48 521.8898 Tm (2. Associer chaque image au bon Pok\351mon) Tj T* ET
+q
+1 0 0 1 48 461.8898 cm
+q
+.14902 .211765 .294118 rg
+BT 1 0 0 1 0 37 Tm /F1 11 Tf 16 TL (Le num\351ro du Pok\351dex sert d\222identifiant commun entre la fiche du Pok\351mon et ses images. Il permet) Tj T* (de retrouver la bonne ressource m\352me si les noms varient selon la langue. Les fichiers restent dans le) Tj T* (dossier de ressources et la base conserve les chemins qui permettent de les retrouver.) Tj T* ET
+Q
+Q
+.090196 .172549 .313725 rg
+BT /F2 14 Tf 16.8 TL ET
+BT 1 0 0 1 48 425.8898 Tm (3. Pr\351voir le cas d\222un fichier manquant) Tj T* ET
+q
+1 0 0 1 48 365.8898 cm
+q
+.14902 .211765 .294118 rg
+BT 1 0 0 1 0 37 Tm /F1 11 Tf 16 TL (Le programme commence par chercher le fichier associ\351 au Pok\351mon. Si le sprite manque, le code) Tj T* (pr\351voit un t\351l\351chargement de secours depuis le d\351p\364t de sprites de PokeAPI. Cette solution compl\350te) Tj T* (la collecte initiale et permet de r\351cup\351rer une ressource sans la rechercher manuellement.) Tj T* ET
+Q
+Q
+.933333 .952941 1 rg
+n
+58 242.8898 m
+537.2756 242.8898 l
+542.8036 242.8898 547.2756 247.3618 547.2756 252.8898 c
+547.2756 334.8898 l
+547.2756 340.4178 542.8036 344.8898 537.2756 344.8898 c
+58 344.8898 l
+52.472 344.8898 48 340.4178 48 334.8898 c
+48 252.8898 l
+48 247.3618 52.472 242.8898 58 242.8898 c
+h
+f*
+0 .223529 .8 rg
+BT /F2 14 Tf 16.8 TL ET
+BT 1 0 0 1 64 329.8898 Tm (V\351rification) Tj T* ET
+q
+1 0 0 1 64 269.8898 cm
+q
+.14902 .211765 .294118 rg
+BT 1 0 0 1 0 37 Tm /F1 11 Tf 16 TL (S\351lectionner plusieurs Pok\351mon issus de g\351n\351rations diff\351rentes. V\351rifier que l\222image de) Tj T* -0.106151 Tw (s\351lection correspond au nom affich\351, puis que les vues de face et de dos apparaissent aux bons) Tj T* 0 Tw (emplacements en combat.) Tj T* ET
+Q
+Q
+.811765 .85098 .92549 RG
+n 48 52 m 547.2756 52 l S
+.14902 .211765 .294118 rg
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 48 33 Tm (PORTFOLIO BTS SIO  /  PROJET DE GROUPE) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+BT 1 0 0 1 529.7616 33 Tm (1 / 4) Tj T* ET
+ 
+
+Q
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+491.2756 27 59 19 re
+f*
+0.14902 0.211765 0.294118 rg
+BT
+/F1-0 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 529.7616 33 Tm
+(1 \057 6) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/Contents 10 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 11 0 R
+/F2 8 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 3765
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.090196 .172549 .313725 rg
+n 0 675.8898 595.2756 166 re f*
+.470588 .588235 .909804 rg
+n 48 798.8898 34 4 re f*
+1 1 1 rg
+BT /F2 10.5 Tf 12.6 TL ET
+BT 1 0 0 1 48 776.8898 Tm (MODE OP\311RATOIRE  /  PROJET POK\311MON) Tj T* ET
+1 1 1 rg
+BT /F2 29 Tf 34.8 TL ET
+BT 1 0 0 1 48 732.8898 Tm (Construire la base MySQL) Tj T* ET
+1 1 1 rg
+BT /F1 11.5 Tf 13.8 TL ET
+BT 1 0 0 1 48 704.8898 Tm (S\351parer les donn\351es du jeu de la logique \351crite en Python.) Tj T* ET
+.090196 .172549 .313725 rg
+BT /F2 14 Tf 16.8 TL ET
+BT 1 0 0 1 48 633.8898 Tm (4. Partir d\222un sch\351ma simple) Tj T* ET
+q
+1 0 0 1 48 573.8898 cm
+q
+BT 1 0 0 1 0 37 Tm 16 TL /F1 11 Tf .14902 .211765 .294118 rg (Le fichier ) Tj /F2 11 Tf (template pokemon.sql) Tj /F1 11 Tf ( pose une premi\350re structure avec la base ) Tj /F2 11 Tf (irismon) Tj /F1 11 Tf ( et les tables des) Tj T* (types et des Pok\351mon. Le script ) Tj /F2 11 Tf (bdd.sql) Tj /F1 11 Tf ( contient le sch\351ma plus complet ainsi que les donn\351es \340) Tj T* (importer.) Tj T* ET
+Q
+Q
+.090196 .172549 .313725 rg
+BT /F2 14 Tf 16.8 TL ET
+BT 1 0 0 1 48 537.8898 Tm (5. Stocker les statistiques et les chemins) Tj T* ET
+q
+1 0 0 1 48 461.8898 cm
+q
+BT 1 0 0 1 0 53 Tm 16 TL /F1 11 Tf .14902 .211765 .294118 rg (La table ) Tj /F2 11 Tf (pokemon) Tj /F1 11 Tf ( regroupe le num\351ro du Pok\351dex, le nom, les types et les statistiques de base, dont) Tj T* (les points de vie, l\222attaque, la d\351fense et la vitesse. Les champs ) Tj /F2 11 Tf (sprite_png) Tj /F1 11 Tf (, ) Tj /F2 11 Tf (sprite_gif) Tj /F1 11 Tf ( et) Tj T* /F2 11 Tf (sprite_dos_gif) Tj /F1 11 Tf ( stockent des r\351f\351rences vers les images. Une correction de statistique ou de chemin) Tj T* (peut ainsi se faire en base sans modifier les r\350gles du combat.) Tj T* ET
+Q
+Q
+.090196 .172549 .313725 rg
+BT /F2 14 Tf 16.8 TL ET
+BT 1 0 0 1 48 425.8898 Tm (6. Relier les donn\351es du combat) Tj T* ET
+q
+1 0 0 1 48 349.8898 cm
+q
+BT 1 0 0 1 0 53 Tm 16 TL /F1 11 Tf .14902 .211765 .294118 rg (La table ) Tj /F2 11 Tf (capacites) Tj /F1 11 Tf ( d\351crit les attaques. La table ) Tj /F2 11 Tf (pokemon_moveset) Tj /F1 11 Tf ( associe chaque Pok\351mon \340 ses) Tj T* (capacit\351s. La table ) Tj /F2 11 Tf (efficacite) Tj /F1 11 Tf ( indique le multiplicateur \340 appliquer selon le type de l\222attaque et celui de) Tj T* (la cible. Les cl\351s \351trang\350res relient les enregistrements et \351vitent de recopier une m\352me information) Tj T* (dans plusieurs fiches.) Tj T* ET
+Q
+Q
+.933333 .952941 1 rg
+n
+58 226.8898 m
+537.2756 226.8898 l
+542.8036 226.8898 547.2756 231.3618 547.2756 236.8898 c
+547.2756 318.8898 l
+547.2756 324.4178 542.8036 328.8898 537.2756 328.8898 c
+58 328.8898 l
+52.472 328.8898 48 324.4178 48 318.8898 c
+48 236.8898 l
+48 231.3618 52.472 226.8898 58 226.8898 c
+h
+f*
+0 .223529 .8 rg
+BT /F2 14 Tf 16.8 TL ET
+BT 1 0 0 1 64 313.8898 Tm (V\351rification) Tj T* ET
+q
+1 0 0 1 64 253.8898 cm
+q
+BT 1 0 0 1 0 37 Tm 16 TL /F1 11 Tf .14902 .211765 .294118 rg (Dans une base de TP, importer ) Tj /F2 11 Tf (bdd.sql) Tj /F1 11 Tf (, puis v\351rifier qu\222une fiche Pok\351mon contient ses) Tj T* (statistiques et ses chemins de sprites. Contr\364ler que ses capacit\351s et les coefficients d\222efficacit\351) Tj T* (associ\351s sont accessibles.) Tj T* ET
+Q
+Q
+.811765 .85098 .92549 RG
+n 48 52 m 547.2756 52 l S
+.14902 .211765 .294118 rg
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 48 33 Tm (PORTFOLIO BTS SIO  /  PROJET DE GROUPE) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+BT 1 0 0 1 529.7616 33 Tm (2 / 4) Tj T* ET
+ 
+
+Q
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+491.2756 27 59 19 re
+f*
+0.14902 0.211765 0.294118 rg
+BT
+/F1-0 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 529.7616 33 Tm
+(2 \057 6) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+11 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 3773
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.090196 .172549 .313725 rg
+n 0 675.8898 595.2756 166 re f*
+.470588 .588235 .909804 rg
+n 48 798.8898 34 4 re f*
+1 1 1 rg
+BT /F2 10.5 Tf 12.6 TL ET
+BT 1 0 0 1 48 776.8898 Tm (MODE OP\311RATOIRE  /  PROJET POK\311MON) Tj T* ET
+1 1 1 rg
+BT /F2 29 Tf 34.8 TL ET
+BT 1 0 0 1 48 732.8898 Tm (D\351velopper le programme) Tj T* ET
+1 1 1 rg
+BT /F1 11.5 Tf 13.8 TL ET
+BT 1 0 0 1 48 704.8898 Tm (Relier MySQL \340 Pygame pour obtenir un combat local au tour par tour.) Tj T* ET
+.090196 .172549 .313725 rg
+BT /F2 14 Tf 16.8 TL ET
+BT 1 0 0 1 48 633.8898 Tm (7. Charger les donn\351es dans pokemon.py) Tj T* ET
+q
+1 0 0 1 48 557.8898 cm
+q
+BT 1 0 0 1 0 53 Tm 16 TL /F1 11 Tf .14902 .211765 .294118 rg (Le script initialise Pygame et se connecte \340 MySQL avec ) Tj /F2 11 Tf (mysql.connector) Tj /F1 11 Tf (. Il charge les fiches) Tj T* (Pok\351mon pour l\222\351cran de s\351lection. La classe ) Tj /F2 11 Tf (Pokemon) Tj /F1 11 Tf ( transforme une fiche SQL en objet utilisable) Tj T* (dans le jeu. La classe ) Tj /F2 11 Tf (Move) Tj /F1 11 Tf ( repr\351sente une capacit\351 avec ses caract\351ristiques, comme sa puissance,) Tj T* (sa pr\351cision et ses points de pouvoir \(PP\).) Tj T* ET
+Q
+Q
+.090196 .172549 .313725 rg
+BT /F2 14 Tf 16.8 TL ET
+BT 1 0 0 1 48 521.8898 Tm (8. Organiser le d\351roulement du combat) Tj T* ET
+q
+1 0 0 1 48 445.8898 cm
+q
+.14902 .211765 .294118 rg
+BT 1 0 0 1 0 53 Tm /F1 11 Tf 16 TL (Le joueur choisit son Pok\351mon, puis le programme s\351lectionne un adversaire. Le code passe ensuite) Tj T* (par plusieurs phases, de la s\351lection au r\351sultat. \300 son tour, le joueur choisit une attaque. Le) Tj T* (programme r\351cup\350re le coefficient d\222efficacit\351 en SQL, calcule les d\351g\342ts en Python et actualise la) Tj T* (barre de vie affich\351e par Pygame. L\222adversaire choisit ses attaques automatiquement.) Tj T* ET
+Q
+Q
+.090196 .172549 .313725 rg
+BT /F2 14 Tf 16.8 TL ET
+BT 1 0 0 1 48 409.8898 Tm (9. D\351finir le p\351rim\350tre du prototype) Tj T* ET
+q
+1 0 0 1 48 317.8898 cm
+q
+BT 1 0 0 1 0 69 Tm 16 TL /F1 11 Tf .14902 .211765 .294118 rg (Nous avons repris des \351l\351ments reconnaissables du jeu d\222origine, comme les vues de face et de dos,) Tj T* (les barres de vie, le choix des capacit\351s et l\222efficacit\351 des types. Nous avons retenu un combat local) Tj T* (contre un adversaire pilot\351 par le programme. Le jeu en ligne et les effets de m\351t\351o sur le terrain sont) Tj T* (hors du p\351rim\350tre du prototype. Le script SQL pr\351voit une table ) Tj /F2 11 Tf (meteo) Tj /F1 11 Tf (, mais le combat Python ne) Tj T* (l\222exploite pas.) Tj T* ET
+Q
+Q
+.933333 .952941 1 rg
+n
+58 210.8898 m
+537.2756 210.8898 l
+542.8036 210.8898 547.2756 215.3618 547.2756 220.8898 c
+547.2756 286.8898 l
+547.2756 292.4178 542.8036 296.8898 537.2756 296.8898 c
+58 296.8898 l
+52.472 296.8898 48 292.4178 48 286.8898 c
+48 220.8898 l
+48 215.3618 52.472 210.8898 58 210.8898 c
+h
+f*
+0 .223529 .8 rg
+BT /F2 14 Tf 16.8 TL ET
+BT 1 0 0 1 64 281.8898 Tm (V\351rification) Tj T* ET
+q
+1 0 0 1 64 237.8898 cm
+q
+.14902 .211765 .294118 rg
+BT 1 0 0 1 0 21 Tm /F1 11 Tf 16 TL (Lancer un duel, choisir une capacit\351, observer la variation des PV et la r\351ponse adverse, puis) Tj T* (aller jusqu\222\340 l\222\351cran de r\351sultat.) Tj T* ET
+Q
+Q
+.811765 .85098 .92549 RG
+n 48 52 m 547.2756 52 l S
+.14902 .211765 .294118 rg
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 48 33 Tm (PORTFOLIO BTS SIO  /  PROJET DE GROUPE) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+BT 1 0 0 1 529.7616 33 Tm (3 / 4) Tj T* ET
+ 
+
+Q
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+491.2756 27 59 19 re
+f*
+0.14902 0.211765 0.294118 rg
+BT
+/F1-0 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 529.7616 33 Tm
+(3 \057 6) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 17 0 R
+/F2 8 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 3759
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.090196 .172549 .313725 rg
+n 0 675.8898 595.2756 166 re f*
+.470588 .588235 .909804 rg
+n 48 798.8898 34 4 re f*
+1 1 1 rg
+BT /F2 10.5 Tf 12.6 TL ET
+BT 1 0 0 1 48 776.8898 Tm (MODE OP\311RATOIRE  /  PROJET POK\311MON) Tj T* ET
+1 1 1 rg
+BT /F2 29 Tf 34.8 TL ET
+BT 1 0 0 1 48 732.8898 Tm (Documenter et reprendre le projet) Tj T* ET
+1 1 1 rg
+BT /F1 11.5 Tf 13.8 TL ET
+BT 1 0 0 1 48 704.8898 Tm (Rendre le travail de groupe compr\351hensible et reproductible.) Tj T* ET
+.090196 .172549 .313725 rg
+BT /F2 14 Tf 16.8 TL ET
+BT 1 0 0 1 48 633.8898 Tm (10. Ranger les informations par usage) Tj T* ET
+q
+1 0 0 1 48 573.8898 cm
+q
+BT 1 0 0 1 0 37 Tm 16 TL /F2 11 Tf .14902 .211765 .294118 rg (README.md) Tj /F1 11 Tf ( sert de point d\222entr\351e du d\351p\364t. Dans la version fournie, il contient le titre du projet. Les) Tj T* (pr\351requis et la proc\351dure de lancement ci-dessous sont les informations \340 y ajouter pour faciliter la) Tj T* (reprise du projet.) Tj T* ET
+Q
+Q
+.090196 .172549 .313725 rg
+BT /F2 14 Tf 16.8 TL ET
+BT 1 0 0 1 48 537.8898 Tm (11. Expliquer le code dans commentaires_pokemon.md) Tj T* ET
+q
+1 0 0 1 48 477.8898 cm
+q
+BT 1 0 0 1 0 37 Tm 16 TL /F1 11 Tf .14902 .211765 .294118 rg (Le fichier ) Tj /F2 11 Tf (commentaires_pokemon.md) Tj /F1 11 Tf ( d\351taille l\222initialisation, les fonctions d\222affichage, les classes) Tj T* /F2 11 Tf (Move) Tj /F1 11 Tf ( et ) Tj /F2 11 Tf (Pokemon) Tj /F1 11 Tf (, les acc\350s \340 la base et les phases du combat. Il permet de retrouver rapidement la) Tj T* (partie du code \340 lire pour comprendre un \351cran ou une r\350gle.) Tj T* ET
+Q
+Q
+.090196 .172549 .313725 rg
+BT /F2 14 Tf 16.8 TL ET
+BT 1 0 0 1 48 441.8898 Tm (12. Travailler \340 plusieurs) Tj T* ET
+q
+1 0 0 1 48 381.8898 cm
+q
+.14902 .211765 .294118 rg
+BT 1 0 0 1 0 37 Tm /F1 11 Tf 16 TL (GitHub Desktop a servi \340 partager les modifications et \340 conserver l\222historique du code. L\222IA nous a) Tj T* (accompagn\351s dans la compr\351hension du code et la recherche de pistes pour avancer. Les choix) Tj T* (d\351crits dans ce document relient chaque outil \340 une t\342che du projet.) Tj T* ET
+Q
+Q
+.933333 .952941 1 rg
+n
+58 226.8898 m
+537.2756 226.8898 l
+542.8036 226.8898 547.2756 231.3618 547.2756 236.8898 c
+547.2756 350.8898 l
+547.2756 356.4178 542.8036 360.8898 537.2756 360.8898 c
+58 360.8898 l
+52.472 360.8898 48 356.4178 48 350.8898 c
+48 236.8898 l
+48 231.3618 52.472 226.8898 58 226.8898 c
+h
+f*
+0 .223529 .8 rg
+BT /F2 14 Tf 16.8 TL ET
+BT 1 0 0 1 64 345.8898 Tm (Reprendre le projet localement) Tj T* ET
+q
+1 0 0 1 64 253.8898 cm
+q
+BT 1 0 0 1 0 69 Tm 16 TL /F1 11 Tf .14902 .211765 .294118 rg (1. R\351cup\351rer le d\351p\364t et conserver l\222arborescence des ressources.) Tj  T* (2. Pr\351parer une instance MySQL de TP et importer ) Tj /F2 11 Tf (bdd.sql) Tj /F1 11 Tf (.) Tj  T* (3. Installer Python et les d\351pendances ) Tj /F2 11 Tf (pygame) Tj /F1 11 Tf (, ) Tj /F2 11 Tf (mysql-connector-python) Tj /F1 11 Tf ( et ) Tj /F2 11 Tf (requests) Tj /F1 11 Tf (.) Tj  T* (4. V\351rifier les param\350tres de connexion MySQL dans ) Tj /F2 11 Tf (pokemon.py) Tj /F1 11 Tf (.) Tj  T* (5. Lancer ) Tj /F2 11 Tf (python pokemon.py) Tj /F1 11 Tf ( depuis le dossier du projet, puis effectuer le test de combat.) Tj T* ET
+Q
+Q
+.811765 .85098 .92549 RG
+n 48 52 m 547.2756 52 l S
+.14902 .211765 .294118 rg
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 48 33 Tm (PORTFOLIO BTS SIO  /  PROJET DE GROUPE) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+BT 1 0 0 1 529.7616 33 Tm (4 / 4) Tj T* ET
+ 
+
+Q
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+491.2756 27 59 19 re
+f*
+0.14902 0.211765 0.294118 rg
+BT
+/F1-0 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 529.7616 33 Tm
+(4 \057 6) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+17 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+18 0 obj
+<<
+/Contents 19 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 20 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+19 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 1422
+>>
+stream
+Gau1.>uTK;'Sc)T/'_Fo_l2.Q5;'HRC!*^`9q$<Np*):S`_h?'+2P7Np>>>$lo6=@h47hD(rqrDo=d`CGn:[;r(qU^$@lIrq!a+AAWX!E$6gV'JP"i55PAe2!21R"+pPn5a#g4Y?AV%%:m*5a,ET/U/<g1^+FmY3qRoBekfY@UJeuEQOP#U=?Z\Y("CW9mA%;TeO$O$G_)Il+#1P$K3FX8t*FTKGc.a@LciluJ34YT/SA96TjHRqCP3MXe!q64unn0_m\5!fY3PE+sHqnMXiY7O\8D`*WLS??.P$F+4qi[K:-#]"KZ`SA&hl;5iKtGh_=Q+0uQ:ij019X=/4mhk$YDN'a0/iX[e>[<oXBO9-eUqV^+FR9.'H/i/$1"TD'VqdOgGinLEoC5$\]UAL<b,a[#JtF_0NjV]c+%_AJlhjQSF?F3X]EA&j_g57WuMem=hrNaYY";("l&<>'id7l,r)kn\/A+GoTN-u1'HB<?0&kd4R+iRd$B#VE5JCmmG"EBqmRgu0bqO7V;GIE2m`bf.+YO1GBsro(kN""+#m@>=u'l6GetS^pe6X$\GInM^"peA*^1$fo'U4)\<!o@Bf$?gGOO3?HG'C9P&W%9Y!e9d/7;SInUA<cSbgsHgqY!Jo?1Jok0"Dbjmr%[]L;cu0G6m-)nl6-K#)G]X31?mk`[sZeKW^!Ee,6aMV)QD*gDDhR)ElA\uQE(J<PahZ)cleAun-cKPX]u]fn?=NE4\22HV*s_S%F@C#E.E#)gqQrf!i13lB]HSSmoh;l^=X)[3Ro=(#!Ea6i5ce@)s?p/7qHZZXjM[d'GgLRrXGD3dWuL!jE<#IC.+kX2P])NDQs-hj9q/ZN[7;,^OJ)B;_Y:L0b8r,Q&qVKJ["^>RT]F+VAt)[iQHok;TYl&U\m"[E$H3^Sdk\;(FEIWOFM==)-L?'W)>9^,n-LN@`oS=seQS=sd"#NtUXEjuZNa:V)e+\-MO-#s,)#KRcd*--e34`Z9(GOP!^1WVT;%#,aBp4iG]qj^.In2A?"<:3hggZ`YebEKCcH/\XI"i)4Tnhk^'bMQ'S8+NJpQB8p$K(F&.GF)p&miX2`5M8DKOKlsu:]=H/U&KdeEg6.coJLNl:qRZ)(Y\EeO#>"nU9I<@E)mJ\AZ>CQ/fA/9fg?J'=)FCtJXL9B(>h=YSO;/qgn'H[e\=2mki?5WG2Q*LVRA`bN>n&:=5%>C:'@aF@TK2r;ldaAf^\=,lelKI@gbK&C/CcnpU8[Uar<uaoW/Lb*,Q5/%JIATYh,GoEdL)If,KZXCi8G=F2r9UoH[9u[?8D61_S'8mJNtG:eM#3kR>BPLW,;j`M1s)G4D+$II\R@m1u'`kK0Xdc1MeN;-:U8^FabEoBC1W"Rscd24sk3RuH.rkM%']7i7FDTYXAi@`2Xg!PH/J)O(jQ~>
+endstream
+endobj
+20 0 obj
+<<
+/F1 21 0 R
+/F2 22 0 R
+/F3 23 0 R
+>>
+endobj
+21 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+24 0 obj
+<<
+/Contents 25 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 20 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+25 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 1636
+>>
+stream
+Gatm;CJX"L'`C51ibG<)!?lAtk?3WPPT@2K@:qWb5,:r-gl)I>aWrhUK)YUQ43rIh<OFV-L=h@O4nmoV*"!1)WVoP3J0/7qE)(s>Lc7S)i^/#!ds+3LaJ"_,KEfYA,9WLs]E343g#>mon44Bc+aB,>=Q'!?I34],c-_3SJ`DG-&H#tl!tmUkkd\l82hW:\S$h#T[p=Uln;C(E4:J/U4H#"-^I<g"BFEZ6$2he6SAW1nm,Jdlo+e0FE>m.U(/o_o!7Tic`T]h(KX9@^eauLNmOo(o^4Z4%=FB@t7E-Wt8bdFpS..)(AHchf4m+00X*"kCOoHa"S(@+u[NY1MloXWCJ,5t+8@:<\Wo?e=@h=\VJNU%[a=V38PtM[(;/1bM-*4WB5UIV;M6<*h,:F$5L6]RLd.Jg/Y/TG9J]Hr$^f)$C1,$)3I($";/*(<+-E5ec#,07>WB`\7Eo`QTgjH=.d'qc,@ls2^1`nT`o81N*VM"`UCuW!q0[C&\3R8/gV]nk[lMBP/[\&^S5Nb*Q>MU:-GNaD#)u"'YY_UTO,R.dD66hFKbT/:?f8Vq7fssa&39gNUc):a"g)+9;jWU&I:<_R?He[5JESMGV^3Ep=TAa[HL6<jjWar5fI$.('jm$5YRK)M!*479SkM:0)3B`9DY;;`dq-nLN[R!<EC'hZR35mI`RR=jsHrn/KQ]H="[_m=0HUR!d]?""X`mM3@>!1=*fXdp2CUoS^9!/Zul.R(&ATbLQ_gE/^Oqks;FiE0-S_OubXR9CXZ;E%7#)q%"pLrE/;'amSAVU/X0do"BYo`parZ(`]R#JPsA_fi#nHP\)j=hi>8d!k1`/kGqR#^lt`rkA+iSoUf%(_'aJ_hG_A5S)pRbUMhIn6>*kl]%m"ldBZdlt"UgFL9GgJf<'\MY^"6],ZsbI5[":9[EchY-#Tn0g%*WI.;gNEnPoel]oBC5J?4AjuYB0a'+gS)Qno*6I+%%kWbH);J-MDdeB"$([fu(3Aqc/aK=a4J'$%A;.$;E:fQ1/JRNf)QqGpd#`.Q<0%L9Mf!%s,-n#i0FLkoiseTke(%Q?I`Ci+;]QoKDlQQK!pYuaI[$iFWVUgr_n$N)89+L:OlH"S]l(%sHD*="UVDrNE8Q#=3';/''o*%^$cV@CXQ&lI6#l`MHgPp4e%;rDdfZn51B;<0$o*b4YTLjCSi;la0-2E[P7lVmOV?fP1dPSK.5q'G=%`'X[83sBA']rOGC5ZRR:DC+s5\WO:hJ]iWp]R8(bC#f_M2UfaWbkNLj1i[Jh!F4B3sJ]E,l$**\!OHhC_7SLg47fa9ZpB-%<T@L)AM1h]c`'h>IrXR.N4QGf->u6DZ\J(]lHdGq1A<ekc^=VauQ14dNjWMIS(#ZpLoObKQr!QcQ45_OMG:juLYmiUa[Um[1XRj7?VDj-ed9UHNr'D4.jmDPWqX>DfF!cK6FI[.7X$nNW-RJMSN27JbLq`MUmW;",Xg:gpHh>\6OXaLeBB>AY#R6VnU`,!jMX%"ss(9Yr^P+j)FOPsr,%(8%%^0onUa&0$Wb=FRkeL;WD:P%i1E;`M6l1S68Yo@`6E$stcVYf-Qr_rls2k@kA"_Y.[uqdhr3Tl"/$^0r!QSHM-b7I.f\MuLd!9`>&!KWM0~>
+endstream
+endobj
+26 0 obj
+<<
+>>
+endobj
+xref
+0 27
+0000000000 65535 f 
+0000000015 00000 n 
+0000000118 00000 n 
+0000000211 00000 n 
+0000000277 00000 n 
+0000000520 00000 n 
+0000004018 00000 n 
+0000004125 00000 n 
+0000004232 00000 n 
+0000004344 00000 n 
+0000004589 00000 n 
+0000008407 00000 n 
+0000008515 00000 n 
+0000008761 00000 n 
+0000012587 00000 n 
+0000012695 00000 n 
+0000012941 00000 n 
+0000016753 00000 n 
+0000016861 00000 n 
+0000017063 00000 n 
+0000018578 00000 n 
+0000018633 00000 n 
+0000018741 00000 n 
+0000018854 00000 n 
+0000018960 00000 n 
+0000019162 00000 n 
+0000020891 00000 n 
+trailer
+<<
+/Size 27
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+20913
+%%EOF
+3 1 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+/Outlines 26 0 R
+ /AF [28 0 R] /Names << /EmbeddedFiles << /Names [(Content Credentials) 28 0 R] >> >> >>
+endobj
+27 0 obj
+<< /Length 24288 /Type /EmbeddedFile /Subtype /application#2Fc2pa >>
+stream
+  ^‡jumb   jumdc2pa  Ä  ™ 8õqc2pa   ^∫jumb   Gjumdc2ma  Ä  ™ 8õqurn:c2pa:6307eca1-cf15-4e98-8956-b1636305fde2   ™jumb   )jumdc2as  Ä  ™ 8õqc2pa.assertions   	πjumb   #jumd@À2ªäHùß*÷ÙCic2pa.icon    bfdb image/svg+xml   	wbidb<svg width="716" height="716" viewBox="0 0 716 716" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M508.749 317.399C516.777 287.314 508.991 253.884 485.389 230.282C461.788 206.681 428.36 198.895 398.273 206.923C376.231 184.928 343.39 174.956 311.148 183.596C278.906 192.234 255.45 217.292 247.36 247.361C217.291 255.451 192.233 278.91 183.595 311.149C174.957 343.391 184.927 376.232 206.924 398.274C198.896 428.359 206.683 461.789 230.284 485.391C253.885 508.992 287.313 516.779 317.401 508.75C339.442 530.745 372.286 540.717 404.525 532.079C436.767 523.441 460.223 498.384 468.313 468.315C498.383 460.224 523.44 436.766 532.078 404.526C540.716 372.285 530.747 339.443 508.749 317.402V317.399ZM470.899 244.776C486.892 260.77 493.488 282.601 490.687 303.412L415.577 260.046C412.411 258.218 408.509 258.218 405.345 260.046L317.401 310.82V277.526C317.401 275.191 318.652 273.005 320.676 271.837L387.644 233.174C414.178 218.353 448.346 222.223 470.901 244.776H470.899ZM357.837 311.144L398.275 334.491V381.185L357.837 404.532L317.398 381.185V334.491L357.837 311.144ZM264.776 269.693C265.207 239.305 285.644 211.649 316.453 203.393C338.3 197.54 360.505 202.744 377.127 215.573L302.014 258.937C298.848 260.764 296.898 264.144 296.898 267.798V369.346L268.065 352.699C266.043 351.531 264.776 349.353 264.776 347.017V269.691V269.693ZM203.391 316.454C209.244 294.608 224.854 277.978 244.276 269.999V356.73C244.276 360.384 246.226 363.763 249.392 365.591L337.337 416.365L308.503 433.013C306.481 434.181 303.961 434.188 301.939 433.02L234.971 394.357C208.868 378.789 195.138 347.261 203.391 316.454ZM244.775 470.9C228.781 454.906 222.186 433.075 224.986 412.264L300.096 455.63C303.263 457.457 307.164 457.457 310.328 455.63L398.273 404.856V438.149C398.273 440.485 397.022 442.671 394.997 443.839L328.029 482.502C301.495 497.322 267.327 493.452 244.772 470.9H244.775ZM450.897 445.982C450.466 476.371 430.029 504.027 399.22 512.283C377.373 518.136 355.168 512.932 338.547 500.102L413.659 456.738C416.826 454.911 418.775 451.532 418.775 447.877V346.329L447.609 362.977C449.631 364.145 450.897 366.323 450.897 368.659V445.985V445.982ZM512.282 399.221C506.429 421.068 490.819 437.697 471.397 445.676V358.946C471.397 355.292 469.448 351.912 466.281 350.085L378.336 299.311L407.17 282.663C409.192 281.495 411.712 281.487 413.734 282.655L480.702 321.318C506.805 336.887 520.536 368.415 512.282 399.221Z" fill="black"/>
+</svg>
+  jumb   )jumdcbor  Ä  ™ 8õqc2pa.actions.v2    Îcbor¢gactionsÅ§factionlc2pa.createdqdigitalSourceTypexFhttp://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMediamsoftwareAgent¢dnamekgpt-6.2-solgversionkgpt-6.2-soldwhenx2026-11-19T19:50:17.175911ZrallActionsIncludedÙ   §jumb   (jumdcbor  Ä  ™ 8õqc2pa.hash.data    tcbor•jexclusionsÅ¢estartU	flength^‡dnamenjumbf manifestcalgfsha256dhashX Œ™r©ÌPò—,Ω√hÌg‹ö—Ωô∞ü'WgÅñ¿˜cpad@  âjumb   'jumdc2cl  Ä  ™ 8õqc2pa.claim.v2   Zcbor¶jinstanceIDx,xmp:iid:f894705d-d9e3-4c12-9289-03dbaecc161atclaim_generator_info£dnamegChatGPTdicon¢curlx$self#jumbf=c2pa.assertions/c2pa.icondhashX u>=W1í≥®NÎL˚¡åt∑'w÷–6«e6„ÒkspecVersione2.2.0isignaturexMself#jumbf=/c2pa/urn:c2pa:6307eca1-cf15-4e98-8956-b1636305fde2/c2pa.signaturercreated_assertionsÉ¢curlx$self#jumbf=c2pa.assertions/c2pa.icondhashX u>=W1í≥®NÎL˚¡åt∑'w÷–6«e6„Ò¢curlx*self#jumbf=c2pa.assertions/c2pa.actions.v2dhashX æB/jÓLPﬁÌOÓÓñí?™S9∏`lJ≠°èóIu∫¢curlx)self#jumbf=c2pa.assertions/c2pa.hash.datadhashX œÑ÷ç7÷ò‡TçmÒQ~¨ƒm¥‹Üƒwºƒ∞‰ê=5hdc:titleiimage.pdfcalgfsha256  P8jumb   (jumdc2cs  Ä  ™ 8õqc2pa.signature   Pcbor“ÑYË¢8$!ÇYà0ÇÑ0Çl†•¸ÈpåÚÄ1ÓDds0	*ÜHÜ˜ 0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0260422155105Z270423155104Z0G10	UUS10U
+OpenAI OpCo, LLC10UOpenAI Media Service0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ù∫jLMóÍÅâ∂—æ^XNr°ôﬂiq|Â!#”Å¢5úL£J<Ôn+øÊdÆ◊ÑKi$ZcœÍv
+ê≤e€|<ç·˛¡3wØ'ﬁ; :¥cáòÕMúø¥3D™T07F∏˝öyDsWU£c|›¨X/ÊzÆﬁ•ò√ìNHZ¯‡|§íK’l∫ ¬*»íæu‘îgµW™jöm00,◊Uaåj“S∂ x^ECûNí£ÄÒØ[—≤Î˛ãÔ∫◊7	ï´d-ô…áö¯ø.–ÁcÄñöy†7ì6£5…H…,òcÈDõ5¨πßSlúhs»
+9ÃIÛ £Çg0Çc0Uˇ0 0U#0Ä9=G‹óèØà{MsÕÂÓ§•*0o+c0a09+0Ü-http://crt-c2pa.ssl.com/SSL.com-C2PA-I-R1.cer0$+0Ühttp://ocsp-c2pa.ssl.com0U 00
++ÉË^0)U%"0 ++$
++ÉË^0UÛùM‘Àùr¯F
+vG•hOt0Uˇ¿0	+ÉË^
++ÉË^
+03	+ÉË^&$019bc403-5cd7-7669-afe6-fdb17177d4280	*ÜHÜ˜ Ç Ç8óle°7 Ò˘Ìt∫’¶[5ıglœ+fi@Õı¸“rVﬂ ï(Í¯fﬁBC=¯x†h(â≠µÓ¸ı2“å∏_ÁlÄnÎ[|ó[0Á.B∏∆pö˛˛ 	¨5F’†åIEÄ√∫íU«Zùo“Îÿyõñ:ºDê44}ÙA•3ó/.lQR
+m=I∞À«ÜXÃ‹Óû.È∆9∏3\ ⁄Ó W3T.p(J%)Oí|.“˙›g.zËPx9Q∫É:⁄à~ê#êíıbXöÂ¬®sÜû≈ÿqÈÔ\d{ëÓ7/vòxVdÁoB—}íºÖjomdÖÿˇ"ñÌπÔ≤–\Ñ}h]5[K±≈iHyÊhé†ƒaò:L¯¿$yÂ¶h‡Ô˝÷ê÷.-AduV_ìî∂°úä<∂¿ËmÛ≈CÁv,h§ÚÊÀãàïË{*r$Å=!∆cm/%Ä£ô[™)•˝GÍ·˜kÂ˚[P&m+°Ç]1ı›b®|2‹L«•,r0PÄWìÇ‚ËÆ≥ßØY4ÆrÔ*ùÆx¨‚3ÏSµ…ô“(®*7°N´¸Ã~Xõ'mE·¥*úΩ0W°1. .…‚»T€°íOæ$5ò˛/i‹∏M„ﬁ/Ëlı¡ä‚”˛rw”®+‘WóÆáÿ æì∂âYS0ÇO0Ç7†'+c»ÃM-õÑQrlÙú^2QÆﬁ0	*ÜHÜ˜ 0O1&0$USSL.com C2PA RSA Root CA 202510U
+SSL Corporation10	UUS0251222181730Z301221181730Z0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç À:¥Õ∏úÀ)V∏yß¯kˆ˘ÿèr√¶ò≠*A⁄a.GRΩtQæ]ÏzÇ∂¿˚˙Ë'•ãË˛bÛ`Ò_H ssï‰NnÃNz5ﬁX·◊Ç‹“GCwõﬂHàyü£9§YN^‡NGóÚuB◊v=∂§"‹Ì∆o‘rFå÷Q«µ∑zÚì˘#'’ÄPuäp†hÈÁºÑ(|ú*Í)©¿/˛…vFU∞/cÍ}ûÙ∞D§@ﬁ@6\DäTkWHˇªo§’Íé¬◊|ÿºŒiø† MìE;ô.y“œûü)ªFŸxc0ñ3Qú^ìm˙Â4JXx≥)l]|∏uï<ôw!{ÿ¥JÎ⁄Õ«
+÷…¢ﬁÆó≥∂Qñ⁄íõ√≤ªPƒ˛∂§Lï]-íjObÂ‡*˜i†ú’πì ⁄—ª^O∆Ø˘)L–…ÏÎÛ≤qP{v'hë˘Pà∏w5ÿÕ°·◊”)ÁJ∆áTY$¬g≤m	5€∫Œ∏F•‡ã⁄·ßüjŒ`“ƒ˜¡ﬁsyU‡p¥ÔÍÃ«˛vâNf
+ià-Ì√F¢*‰å‘úWF-Xb’ ®˙~¯¬ŸajÀ5]†ì£≤e®/ÌÔòÁ¸~∫HÙ™°q¸ìØÍßNsài’B¿˘ÑíÖOÀT≥=:¯›)ey Cûñ∏áXñ!Ô—ë{ £Ç&0Ç"0Uˇ0ˇ 0Uˇ0)U%"0 ++$
++ÉË^0U9=G‹óèØà{MsÕÂÓ§•*0U 00
++ÉË^0U#0Ä¸*Ju:Ä˙ôcìsWÏæì∞}√{0x+l0j0$+0Ühttp://ocsp-c2pa.ssl.com0B+0Ü6http://crt-c2pa.ssl.com/SSL.com-C2PA-Root-2025-RSA.cer0	*ÜHÜ˜ Ç Œ6˙>Ôñ6-éØUfˇ{+ kVıÀ≠Ω*Å≠•¶–M£>ì‰ìi’‰å®nÊ7T‚%úÏef(<3=¢ö¢ªÕgdJÁæt!°n√´&ƒ;,⁄Uπ˝GN‡çxõ7Éƒt;≈GaÔmAr§€]CS…ñNÂ‡:ﬂ®›.—ØXó÷ÁÙ_r#<kœΩ9´åì®èßvY>·íı˜Ÿ˚Fb´nn‘àF†≥/*j_•N⁄¯‘¸ÃŸ£<©wE
+¡˘òπ9ÀÃ°q¿*Çq”‰ˆ%‚Q!m÷ﬂ‰SçoJ}é^¿∫’wy!ÅzŒÌ˜õé∂≤äBVùèkA*˛kúãÓ£(œ_ÛÈ–d÷Ó¬âKÎíœıØ¬'M∏ë°7%ôÊ˝Ä‹Ùº«7{æ¥-gX/Á√≥ãqÂDz0∂•≤u>[#~;”T¶:π«Ã3’j5zÅv/˛W⁄i¯>?ÔTèã{F√cû˙Ìƒ/pÑ+ˆVÇÙßÀ$◊l^${:Ω©X;i≥úè“ptˇãn&ª√´E«SñúGµ∆F´^ı¸àãh£5Â|jïeµ´Îπˇ∫∏‡õJG≤ŒÏ/â}ÓØúMƒ…Œı2=è˜&4˛"ãzÌ˘^^g_Q[€$V˚—Y°∑ﬁöf	∂—Ü.˙}~ïyõDf|6Öˆı£gsigTst2°itstTokensÅ°cvalYå0Çà	*ÜHÜ˜†Çy0Çu10	`ÜHe 0Åà*ÜHÜ˜	†yw0u
++Éø0010	`ÜHe  Ë◊æ˙‡Ø◊Œ.eëÈ\$s•Ä77Ànè™ﬁt}dŸ	 ÷æ$úMªÏ20261119195018.513962Z0Ä	 ‡ˆÁƒ¯…†Çf0Çˆ0Ç^†a€F(2äåçJ∑ø˛`„l?q∑0	*ÜHÜ˜ 0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CA0260408174626Z370709174626Z0u10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Leaf0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ Í ≈≠î˝˝'ü«xßa ˇ)a*˚°àÕ_®¢óùâ/ãë»º∞ñê=UÇ¡ñé6j≠âiËê€,D2É®
+ÕwÂ5ËÓ®d[˛∏‡éùÁ °(√5›ß7È"˜	Móö¥Ñs¿.|©PG(†¥i∞á)zY˛5B˘ŸiRJ 7ÚhÃÒ-∑Çñ KF\=§Ü∏KEf8¢NM' ï∫uÃNájüt√ $_ƒ~\Æ˛ÛïÌ ëﬂ<ıÜõ*^÷–›…˙»M√…ÑZI,‰8s`R∏LÓ∆Û∑∂ÿ›j©Œ ∫]÷ƒ\5dÚ#S?bée]p+‘…k	ÅERËWÌZF]⁄]vú%yhÉQ§òÑuëròUˇÿ„Cb±Ìig'Aº≈èÚj+ÉIË·-4ª9ØgΩ¥ï»≤ΩEgÕràî_UK,≠ØÌ•Ù$Øw>ÉädQèëå9ñK∞=Æ˙ô°>å=æ6°.ıcµ £x0v0Uˇ0 0Uˇ¿0U%ˇ0
++0U§'TÇ¢äÄ{=≈ÜÕ?pŸ¬ÉôQx0U#0ÄÚ∞«T=#CÖ‹ s–rÄ=∏®0	*ÜHÜ˜ ÇÅ  ˚$OA¿¿ºò≤2 ç ôH5OƒFV~ß>?∂•#˘*H>‡QùE@x¡ªÉNìP…õ'ñhﬂMŒÚˆ“y´ÔÍ¡⁄?ıòYÊpÕâÙÓGã™ÀÏˇå~·FÿëÊú∏‰4Fˇa“x¯}89„RÌ_fËs¿ r;‰®´éÜ*£7!˘;ﬂ{\TÿL«j*KœCt`Äs£…—wØá©˝µ±Ñjnøà*Œö°ö´¢ûÇH7≈cQó€R|og…iB’œı˚≠^ãê‚‡y<.Éjû•Ë%AèÖÌ‰¡†:ç˛ùRPÔáﬁ·dÕU˘! ﬂ∂)Ôü'n—∫4F´J"OÁbw›E#›a-¬1)èƒπ~y´¥W‘¡Ïœ·\{eI∞ÎM´§«'@N¶¥µèœ|√¥Cßv”^0cÓ®Æ5(td´Z5„[/:>N
+a÷0MCõˇN.∆!π>:, W0ujédK¢–	—◊†g&Amg¯pv∏%&V˘ë&'√KI0Ç~0Çf†ç ∆≈≈⁄∞ºÒNï•Íº0	*ÜHÜ˜ 0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0 260408174626Z21260409174626Z0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CA0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ âº‘π‚»°æaªﬁ<df~ßæúm”©0&<Ù‡k 9ﬂï4Ì©¢eH€7Ü2ÉéÃ
+J†¿Û4l†¿òÕ+ü•ÙÀ|Ÿ&ﬁ~…M¢Ôc[ëÊˆY®“˙N˘Ÿ8+ZÕ`ZòÅò®◊S∆„÷.H¨CW	ÈîÚG˘lEä`∑˜Æ/^¢5NÖ8Öiü4ù–MÿC=Õ4m¸cì¸”pªJËvËjNfI†Ì¸¯æÔö∑®w¨Ô∑8Ãπ‘*3ƒv÷@wÀ˛«]-@”ﬁã<¿÷@AôÀî?,} kR¸û P∑	GE·#U˙±OoTòïÙ}∫¯h·"z‹äëCã∂.C±b†æ $é.Ôø§—MË∏?1œ&=≈ PÍÚŸ$ dÌ’sû.px™ﬁV<˘‘Ä¢Ë≠Øˆ˚®£\Àh´D€0wÚƒ4tkUm∆á˚Ú2<ûqE˜ÏP˚˛÷1&ª–ƒMa‚B€Ø√+n_+Ê‚∞Ôç\DÕ¿s}è¢ÈΩmÇº%eÑ0iÌ £{0y0Uˇ0ˇ 0Uˇ0U%0
++0UÚ∞«T=#CÖ‹ s–rÄ=∏®0U#0ÄX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0	*ÜHÜ˜ Ç íÏ7\ﬁlÎd⁄Æ°	0rÆ‹rı;ºz=÷∆·/ˆÉ3}ËW@NLô™k‘ôŸã€k÷L¯ –Y3”°†8\#àD$˚á·ˆì'º°ÌL_g]ˇ5´1“Ï{‘@C7O¬Ñú∫d»∞¢~ö6¯·–Ç≥PC≤‡UΩÄî»YRNJtﬁ]«EXõ∑˙0™;‹Gº’.,π8c,yZ∑›U≠=BﬂàœÒh˛s ‘Z∑ﬁ$óë¿Ág˛‹¶
+Û•F≥QœçØ_„»∏@∆Ω„˘÷Kq–d]Âd¬K¿^w—=«[ûœ{˝îîÁKQ⁄˚dÙ´5îÒˆæ~+›≤ö=P›P√ñdém´sü(;w–óÌoEO±3._FÎÉ∂©aº◊ÇÆ¯Äo¬„i0Êm|:Dí+ò-Ø‹4¡æ•*HÁá»ﬁ8µ3 „ÑPpÒ≤KﬁçOˆë‹_Ö˙ÒÊ—◊ ßÓ¥üˆ!x)Å„pXwÜ§:KóÉFË⁄¬jv…©À!Eæe±†Ü.ÄºYKMõCm¥◊Ñ‡¸’»aêCéjù√Ò!<Ñ]˛;÷ÿ#9E_q˙2˝†ÄïDµO Â√t˝‚NárÜÙQáΩ‘µ+5lí§;kjù∫˝¿;úv¬’9I⁄„î>Pj◊L‚âaùÔÎœ≈√@npz80ÇÊ0ÇŒ†P;lâå$3,è˜Oé˚}ÇÏ0	*ÜHÜ˜ 0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0 260408174625Z21260409174625Z0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ˆíÈ“∫≠û·¨u®Vÿ™±≥jí_ñyıí∑-$¯ø¿Ø`æ¡öÕyö‹lö˛6ö¡ò§?‰,ù∫••Ps≥
+¬˘ÛƒI/xΩ“ÏºÁ?Ùõ—Ú†a¢,â% Q˘%ú“∆/ÙâƒA˛&”m5ÕÏª5`@®ÖQæˆÓêòÒ*ÿùzkjŸ.ŸcÛÂ\)≈Ü"¡ähÕÎ8û©Pñ[#C˚8ˇB|;:°Q/%…H‹1ˇPrÓ|°wÕoÅaÛ?ønË“±¶6‰k2˚˛w®^õ\››1êLéeˇÅÀAŒ(1S CŒHn}÷d≥)‰¥.:∑TZrVWÛ®j}ÔÊa›e»H	Iô2t
+¢Ã›ì S¨#ΩÇÖ ±ÔæÌ°w Ó:F3¢ûÏØÈ1f¥fo≤âì†~ï!ŒA¯^éÈÕπ¿’3]x––'1œP0rs⁄j¬¿ìœ≠‹dáˆ˚Nàvı>Ôˇí,ôw.ˆ‹ò∂ù	:˝Ù	«è_ZÈ~H	+µäÉÚ[<,Øë¢ùA∑Rh—ø∞¿⁄O`ΩÓ)™Ìáçq\(åçà£%cEÿ¸{aèlFT;\…∞ÇØÉ»±#?ü[Ó¢◊Tµ*SÆªÖ€¶˙óûÏÑârÛz@…∂ÖXG[Ò$a9¢Lﬁÿ∆®"Úûø[L,À £f0d0Uˇ0ˇ0Uˇ0UX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0U#0ÄX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0	*ÜHÜ˜ Ç X¯ÅëòÚla˛»Ü÷[Ñ¶÷æ∏¶]]IÀ∏°)Õ-ù∏X˘Ñâ=<¯o’j¥*¢UígÅô^µT˚öFÄ„Q S¿¡àWﬁÔÇU~„Ù}Î&¸Éˇ!®¡¨ﬁ€ì´Õ–0v:ìùŒ™g9.Ätﬂm~v/ÈÍPAã8=lÂ‡>Ó/€dT6^æbE∂—!¥Ä<åÎ⁄ú÷J©’Te[k—X~¿IáÎÎK_í;î◊öÜˆ°YŒG8¨√∞td—¿R;°±{(k·ió¯(;'ˇÆ§û˜eÀ†ÙÍπΩîŒD‚ò±
+HhÓU©!•`è˛ ÷}—{Ü úÛ®x–∆⁄@.»Å\b®*¡˚VÁyéØÏÂ€”p˛FÃc®dÒ<ÈØ•dº^øÖ-∞Œ„π”§◊RªpãÜù˚.ø
+ˆ“U+#B+C\Ï°Ça?œqÌ∞˜óÈ‰À¬<¸¨w∑∂‹ ¡LÈâ≤≤/√~ídúµÑﬁÃñ˝â∞KµC}“È≠Ü˝Ÿ-üΩ Ó¿¥GV#|HëNgâ {b¡…^UÒˆ∆Q#WoÔáæ Fyæî±» (ùïäà&UfRÔŸK∫®ZÈ¬,≠ü√\BÛ°ı'dyqå
+Zû˝π˘Eyp·jµ7ñéX˝EøT%åÉ=Ÿ&3#–Xw¶∏1Çh0Çd0Åì0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CAa€F(2äåçJ∑ø˛`„l?q∑0	`ÜHe †Ç%0	*ÜHÜ˜	1*ÜHÜ˜	0/	*ÜHÜ˜	1" H≤¿èæ;π8á◊KKºb?û_`ªm∂z=u∞0Å’*ÜHÜ˜	/1Å≈0Å¬0Åø0Åº ΩOπ≤êLÅ6gànÔA·m˛Ÿ"ùø[íJ–¢ƒ`F"z0Åó0§}0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CAa€F(2äåçJ∑ø˛`„l?q∑0	*ÜHÜ˜ ÇÄ‰˙C∫Ù¨óÕ¸à4ÿ≤Ô≈±ê\˙Õ“z¬lÕò]‡Öê≈è\ßåî¿A„?i’ç‘8V{°µiÂT;$≤pÙ˘Ïê·©)ìHh9\`ªy00<Gnÿv®nƒªDè&AÛUÂ8I\\¶^ú Õkô	¿ºle˚ØuS#ÀRBˇ≥ìºº·=Ãlù◊qâ3a¿∫˝¨˜[q˛è-ÄÎ˛∆c€teW"ﬂœn,?õÉ£ûŸà◊Û≈V3Ωﬁ” QíΩÏLlkA–Ä>ÈÔh¢ZÛ¡ÛuÛˇœî µØ7ñÓCe-‚ƒñ[9iﬁsY_b¿5Z≠–*¡m‰l±E^ƒıO´Â9«j‡˛¯+πÍR∏¸·≤Ù-t∞∑:çqã,l<m’`§pAÓ7u§$ ûπI√Œ;¨∫®-ıîŒqù∫ÀYŸjZ4mÉî—»*Ó7€,ıáÔ®—›=@Üı8Ê2ƒÊ—íû48Ω˚¿c:c0éåƒè
+†erVals°hocspValsÅY◊0Ç”
+ †ÇÃ0Ç»	+0Çπ0Çµ0ÅÈ¢mÃ†g\¿ÃwY◊UBÉ≤÷+20261119184436Z0Åò0Åï0I0	+ ﬂÇ7S^Sÿ3±‡=$5ÒuÊ·
+9=G‹óèØà{MsÕÂÓ§•*•¸ÈpåÚÄ1ÓDdsÄ 20261119184436Z†20261126184435Z°"0 0	+020161121184436Z°#0!0	+0∆s>-Ù4˘ UãsÂ0	*ÜHÜ˜ ÇÅ bí´ü'≤ËÅ°‘§.–aøj¸†hπ5˛H®ÕTNæ5ºÑÙòFÃ(∏Ê⁄3¡‚-\¶í#êOß/·˝\ì)*¿8ÁGÎ7Ùìè«íP¨úD6;àXˆ¶ŸâG™Ô§û¢#—Uè*¥pÑ[|∆#!“b,Eî\i(@ÿÉâÕ‘
+ÙU˛ËoD‰ÇbOè=ê2Ôi?‹€∂i„p1È÷Ñ8Õ8^øﬁ&Êî‘Td≥D¯H/Ì«_Nò‹¬#›πU©%Ö;xÈÁπ£¨ÖÖ_„ÒüÊC#ƒ©è"û_ ‚—zˆ˘g˙2a§!ı∂⁄;o\50*û?Ê∂ç5ÕNH4I˚›b|å¬W»†ÅJÏ∂Õ˛¡ãÙ3°-ú»&ÈÁc='?|3∫H’†øC  ’EÓêÌ«~m!©NySπçæÕãwG–∏?ﬂ·‹#ì´®?Hè˜∏eâÙ\x∆~Àúë˚t◊–ßù¬ (xüCõ√BÙ^ä˘†Ç10Ç-0Ç)0Ç†pßπß⁄!ıD–Æ≤D0	*ÜHÜ˜ 0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0261104111802Z271104111801Z0M10	UUS10U
+SSL Corp1+0)U"SSL.com C2PA ICA R1 OCSP Responder0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ ƒ''â°mˇN/VrWa=XÙúQoŸ|	∫'êIªT#á"úˇ∑j ∏I:ﬁ
+%≈˚‡àI‡•˝∏oÊØD?öÛ[è…A≤“˝Ò3W≠˚è¬-ÍŒ $°|©ä3Ú˚JÜ∆/˝.:°ÁÎøçÜ±tæZãE*≠vµ-∆CÃò‹å›ÿI±ÑØzû°K÷7ÅÆŒùÕ›¿!òπ√n‡9ÍìlnT.Œ(à™6÷:%â>¡˚Bb„nüIàDÑ—£yëO14—º“IZ_Im/PÄé®/Ftp©»g∏BÂqt 6KVt∫√ı¬~Yø÷ÀÁsã*‘Êü"©<qtú‡n[9NÒûÌÖ°Å3$Ilˇ°
+Jg5+∞˛®÷	Uvl¿øz?0•…øÅ|îÚ†≠Qñ`#ä« ¨ˆ£‘—b]˜X`ß¯	e&¥R5Ï˜˚÷ßπ˜É Q©%∆BÖ∆”$4qD_–œ:TÖœ4ﬁSŒ¶&‰©l≠ÄçP¯—≥◊ºwY £Åá0ÅÑ0Uˇ0 0U#0Ä9=G‹óèØà{MsÕÂÓ§•*0	+0 0U%0
++	0UmÃ†g\¿ÃwY◊UBÉ≤÷+0UˇÄ0	*ÜHÜ˜ Ç ≈–]ıF¢¸ÎAgÜNﬂ_Î7	dh∆=´dcñèÄÜ>π>& W9˙ù^%⁄ÍèSm`0K≈Úñ˜P⁄\Í&ùµK£ªÏ ;ò Gh⁄˚IfØüŒù/—t≥© ∂;À<†6“¿-◊jaº á›:õu>âÀ©Ö‚ë’Ã∞’ı	Tt@œ≈E¯˜¸≈W˚™bÍπˆ!
+òóO' ¨o€èß¨2ePs°ˆå¿.
+ŒÌÊl‚£sÊQ.8íÜÅgæÕúå êØiÎè(m«õÎß˜ÎÖ÷∂®£@ˆ©∑üﬁÆo§6ˆ|V¯HÎØÌA}ª}¸hÅ˚Ï™ì$/‰z#≥&`ıWxïÅ ‡qƒ&07å]ëÑ—VuBøÂ{ÿU¸Ü≠Ê¯bÍ∞›5\îøÈ«'∑‰-7Ò>w±Dài|®›¸¢πÖ>H¥£€n^G6üë0ﬂÅ?:%˙Á1º»qÇBˇö`0\˜√ä=5o
+=Áe¡}ŒH82"HA‡˚y-—3Âv	§˘u&'Ωw%∏ö¶Xyaw«∫«ûK°µµ›â∞£0fG ÈÒh#©aJÅ\”≤©e¢∏´‰I˚gö∆™ÎsœÙâ±9zX∏À´Àïˆ˚|u>«›>FÛ†ws»nˇMºÅ˙Œä[!R¡Ôß„y]…√ªP+Ê¬Ê;cpadY&t                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ˆY &ûTòä>=é®R)
+Ù´¨¶^≥€ó"ﬂªn>zWDø4*»”∏:‰QçS+6ÃwK◊ˇÖÔ eKª≠ãÊ •p™_ïËgœ`ÿ29µ©ﬁt™â´
+oeo>Ä_ú·‹fgÊc–˚B˘ÂuWµ·ˇ’a"ÛP'sy9Íd~≤π^Úèˇ≈¿®UL⁄^íåÍu(ﬂ§b÷ˆÜ')‰Ï;XÎâ“Zı+ojiŒc‡ΩÜkÊO+lïWÁıh~≤-î™{FŸ\ÑÓQ£«	u=ˇÅP˛◊ﬁT4n_Ù(5ú)ÛñøQ7eƒ°Ê£Çob⁄≥∏ΩZŸë˛Ê~tq
+endstream
+endobj
+28 0 obj
+<< /AFRelationship /C2PA_Manifest /Desc (Content Credentials) /F (Content Credentials) /EF << /F 27 0 R >> /Subtype (application/c2pa) /Type /Filespec /UF (Content Credentials) >>
+endobj
+xref
+3 1
+0000021532 00001 n 
+27 2
+0000021684 00000 n 
+0000046075 00000 n 
+trailer
+<< /Size 29 /Root 3 1 R /Prev 20913 >>
+startxref
+46271
+%%EOF

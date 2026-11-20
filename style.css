@@ -210,14 +210,14 @@ footer nav ul {
 .bouton {
     display: inline-block;
     padding: 12px 25px;
-    background-color: #0039CC;
+    background-color: rgba(34, 41, 58, 0.9);
     color: #FFFFFF;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
     font-family: Arial, sans-serif;
     transition: all 0.3s ease; 
-    border: 2px solid #7896E8;
+    border: 2px solid #17264f;
 }
 .logo-item img {
     width: auto;
